@@ -1,2 +1,2 @@
-# Game-
-cube game
+# easy-cube-game
+ cube game
