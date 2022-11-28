@@ -1,4 +1,4 @@
-function Game(){
+
     var Player=document.getElementById('player');
     var Score= document.getElementById('score');
     var Timer=document.getElementById('timer');
@@ -64,7 +64,7 @@ function Game(){
         }
     }
      
-}
+
 
 var Player=document.getElementById('player');
 var Score= document.getElementById('score');
@@ -126,8 +126,4 @@ function EndGame(){
     Swal.fire("time out"+ " " + "Your Score is" + " " + RealScore )
     clearInterval(interval);
 
-    
-}
-if (EndGame()) {
-       Game() ;
 }
